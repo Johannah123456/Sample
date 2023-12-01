@@ -16,5 +16,10 @@ namespace sample
         {
             InitializeComponent();
         }
+
+        private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }
