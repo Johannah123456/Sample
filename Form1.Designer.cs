@@ -35,28 +35,32 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(315, 138);
+            this.textBox1.Location = new System.Drawing.Point(49, 82);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(452, 22);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "hi my name is";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(315, 245);
+            this.maskedTextBox1.Location = new System.Drawing.Point(573, 219);
             this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(452, 22);
             this.maskedTextBox1.TabIndex = 1;
+            this.maskedTextBox1.Text = "my name is";
             this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(121, 318);
+            this.maskedTextBox2.Location = new System.Drawing.Point(219, 375);
             this.maskedTextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(452, 22);
             this.maskedTextBox2.TabIndex = 2;
+            this.maskedTextBox2.Text = "slim shady";
             this.maskedTextBox2.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected_1);
             // 
             // Form1
