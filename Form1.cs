@@ -21,5 +21,15 @@ namespace sample
         {
 
         }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox2_MaskInputRejected_1(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }
